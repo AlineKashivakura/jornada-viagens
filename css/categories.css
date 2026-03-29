@@ -1,0 +1,44 @@
+.categories {
+    padding-top: 88px;
+}
+
+.categories-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.category {
+    color: var(--text-primary-color);
+    background-color: var(--background-secondary-color);
+    width: 312px;
+    height: 220px;
+    box-sizing: border-box;
+    padding: 24px 16px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.category h3 {
+    margin: 0;
+}
+
+.category header {
+    display: block;
+    background-color: transparent;
+    position: static;
+    padding: 0;
+    margin-bottom: 24px;
+}
+
+.category header h3 {
+    font-size: 28px;
+    font-weight: var(--titles-weight);
+    margin-top: 24px;
+}
+
+.categories-cards a {
+    text-decoration: none;
+}
+
