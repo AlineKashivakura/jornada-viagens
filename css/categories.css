@@ -42,3 +42,26 @@
     text-decoration: none;
 }
 
+
+@media screen and (min-width:768px) {
+    .categories-cards {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+}
+
+@media screen and (min-width:1024px) {
+    .category {
+        width: 281px;
+        height: 220px;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .category {
+        width: 281px;
+    }
+    
+}
