@@ -1,32 +1,25 @@
-.destination-items .item {
-    padding: 0px 60px;
+.destinations {
+    width: 312px;
+    margin: 0 auto;
+}
+.destination-items {
+    gap: 40px;
 }
 
-.destinations .item header {
-    display: block;
-    background-color: transparent;
-    position: static;
-    padding: 0;
-    margin-bottom: 24px; 
-    width: 312px;  
+.destinations .item .img-item {
+    width: 100%;
+    height: 368px;
 }
 
-.destination-items .item header .tokyo {
+.destination-items .item .tokyo {
     background-color: var(--background-tertiary-color);
     background: url(../img/tokyo-mobile.jpg) no-repeat center/cover;
-    width: 312px;
-    height: 320px;
 }
 
-.destination-items .item header .osaka {
+.destination-items .item .osaka {
     background-color: var(--background-tertiary-color);
     background: url(../img/osaka-mobile.jpg) no-repeat center/cover;
-    width: 312px;
-    height: 360px;
-    margin-top: 60px;
 }
-
-
 
 .destination-items .item header h4 {
     color: var(--text-primary-color);
@@ -40,4 +33,56 @@
     font-weight: var(--text-weight);
     font-size: 20px;
     line-height: 1.5;
+}
+
+.destinations .button {
+    width: 312px;
+}
+
+@media screen and (min-width: 768px) {
+    .destinations{
+        width: 648px;
+    }
+
+    .destinations .item .img-item {
+        width: 100%;
+        height: 452px;
+    }
+
+    .destination-item .item .tokyo .img-item {
+        background: url(../img/tokyo-tablet-desk.jpg);
+        background-size: cover;
+    }
+
+    .destination-item .item .tokyo .img-item {
+        background: url(../img/osaka-tablet-desk.jpg);
+        background-size: cover;
+    }
+    .destinations .button {
+        width: 280px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .destinations {
+        width: 900px;
+    }
+
+    .destinations .item .img-item {
+        width: 100%;
+        height: 452px;
+    }
+    
+}
+
+@media screen and (min-width: 1440px) {
+    .destinations {
+        width: 1200px;
+    }
+
+    .destination-items {
+        flex-direction: row;
+        gap: 24px;
+    }
+    
 }

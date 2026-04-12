@@ -1,15 +1,3 @@
-.section-title {
-    width: 312px;
-    margin: 0 auto;
-}
-
-.categories-cards {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 24px;
-}
-
 .categories-cards .card {
     color: var(--text-primary-color);
     background-color: var(--background-secondary-color);
@@ -26,14 +14,6 @@
     font-size: 28px;
     font-weight: var(--titles-weight);
     margin-top: 24px;
-}
-
-.categories-cards .card header {
-    display: block;
-    background-color: transparent;
-    position: static;
-    padding: 0;
-    margin-bottom: 24px;   
 }
 
 .categories-cards a {
