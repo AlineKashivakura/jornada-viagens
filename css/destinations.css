@@ -23,15 +23,11 @@
 
 .destination-items .item header h4 {
     color: var(--text-primary-color);
-    font-weight: var(--titles-weight);
-    font-size: 28px;
     margin: 24px 0px;
 }
 
 .destination-items .item header p {
     color: var(--text-primary-color);
-    font-weight: var(--text-weight);
-    font-size: 20px;
     line-height: 1.5;
 }
 

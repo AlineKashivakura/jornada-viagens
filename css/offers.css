@@ -9,10 +9,7 @@
     text-align: center;
 }
 
-.offers-cards .card header p {
-    font-size: 20px;
-    font-weight: var(--text-weight);
-}
+
 .offers-cards .card header h3 {
     font-size: 40px;
     font-weight: var(--titles-weight);
