@@ -78,6 +78,18 @@ body {
   margin: 16px auto 32px;
 }
 
+.content-title {
+  font-size: 28px;
+  font-weight: var(--titles-weight);
+  margin: 0 0 24px;
+}
+
+.content-text {
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  line-height: 32px;
+}
+
 .categories-cards, .destination-items, .offers-cards {
     display: flex;
     flex-direction: column;

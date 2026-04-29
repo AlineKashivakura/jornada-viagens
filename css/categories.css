@@ -11,8 +11,6 @@
 
 .categories-cards .card h3 {
     margin: 0;    
-    font-size: 28px;
-    font-weight: var(--titles-weight);
     margin-top: 24px;
 }
 
