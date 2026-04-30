@@ -42,3 +42,24 @@
     color: var(--button-secondary-color);
     line-height: 32px;
 }
+
+@media screen and (min-width:768px) {
+    .testimonial {
+        width: 648px; 
+    } 
+}
+
+@media screen and (min-width:1024px) {
+    .testimonial {
+        width: 900px;
+    }  
+}
+
+@media screen and (min-width:1440px) {
+    .testimonial {
+        width: 1200px;
+    }
+    .testimonial-container {
+        flex-direction: row;
+    }
+}
