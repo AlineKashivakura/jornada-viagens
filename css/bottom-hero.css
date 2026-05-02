@@ -1,0 +1,9 @@
+.bottom-hero {
+    margin-top: 88px;
+}
+
+.bottom-hero .hero-img {
+    background: url(../img/bg-bottom-hero-mobile.png) no-repeat center/cover;
+    height: 400px;
+}
+
