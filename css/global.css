@@ -53,7 +53,7 @@ body {
   margin: 0 auto 32px;
 }
 
-.destinations header, .categories header, .offers header {
+header {
     display: block;
     background-color: transparent;
     position: static;
