@@ -22,7 +22,7 @@
     background: url(../img/osaka-mobile.jpg) no-repeat center/cover;
 }
 
-.destination-items .item header h4 {
+.destination-items .item header h3 {
     color: var(--text-primary-color);
     margin: 24px 0px;
 }
