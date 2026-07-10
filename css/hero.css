@@ -61,6 +61,20 @@
     padding: 88px 60px 0;
     font-size: 32px;
   }
+
+  .travel-packages .hero-img {
+    height: 620px;
+    background: url(../img/japan-bg-hero-tablet-desktop.png) no-repeat center/cover;
+  }
+
+  .travel-packages .hero-content {
+    padding: 210px 70px 107px;
+  }
+
+  .travel-packages .hero-content p {
+    font-size: 32px;
+    line-height: 48px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -71,10 +85,23 @@
   .hero h2 {
     padding: 88px 120px 0;
   }
+
+  .travel-packages .hero-content {
+    padding: 150px 120px 170px;
+    margin: 0 auto;
+  }
+
+  .travel-packages .hero-content p {
+    width: 570px;
+  }
 }
 
 @media screen and (min-width: 1920px) {
   .hero h2 {
     padding: 88px 160px;
+  }
+
+  .travel-packages .hero-content {
+    width: 1200px;
   }
 }
