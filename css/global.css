@@ -114,6 +114,12 @@ header {
   text-align: center;
 }
 
+/* Pacotes de Viagens*/
+
+.main-header .list-links .active {
+  text-decoration: underline;
+}
+
 @media screen and (min-width: 768px) {
   .section-title {
     width: 100%;
@@ -128,6 +134,7 @@ header {
   .button:hover {
     background-color: var(--button-primary-color);
   }
+
   .section-title hr {
     margin-bottom: 64px;
   }

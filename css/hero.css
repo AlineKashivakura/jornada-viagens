@@ -12,6 +12,8 @@
   text-align: center;
 }
 
+/* Pacotes de Viagens*/
+
 .travel-packages .hero-img {
   background: url(/img/travel-packages/japan-bg-hero-mobile.png) no-repeat;
   background-size: cover;
@@ -51,6 +53,8 @@
     font-size: 32px;
   }
 
+  /* Pacotes de Viagens*/
+
   .travel-packages .hero-img {
     height: 620px;
     background: url(../img/travel-packages/japan-bg-hero-tablet-desktop.png)
@@ -76,6 +80,8 @@
     padding: 88px 120px 0;
   }
 
+  /* Pacotes de Viagens*/
+
   .travel-packages .hero-content {
     padding: 150px 120px 170px;
     margin: 0 auto;
@@ -90,6 +96,8 @@
   .hero h2 {
     padding: 88px 160px;
   }
+
+  /* Pacotes de Viagens*/
 
   .travel-packages .hero-content {
     width: 1200px;

@@ -3,14 +3,20 @@
   margin: 0 auto;
 }
 
-.destination-items,
-.travel-destinations-cards {
-  gap: 40px;
-}
-
 .destinations .item .img-item {
   width: 100%;
   height: 368px;
+}
+
+.destinations .button {
+  width: 312px;
+}
+
+/* Pacotes de Viagens*/
+
+.destination-items,
+.travel-destinations-cards {
+  gap: 40px;
 }
 
 .destination-items .item .tokyo,
@@ -37,10 +43,6 @@
   line-height: 1.5;
 }
 
-.destinations .button {
-  width: 312px;
-}
-
 @media screen and (min-width: 768px) {
   .destinations {
     width: 648px;
@@ -50,6 +52,12 @@
     width: 100%;
     height: 452px;
   }
+
+  .destinations .button {
+    width: 280px;
+  }
+
+  /* Pacotes de Viagens*/
 
   .destination-item .item .tokyo .img-item,
   .travel-destinations-cards .item .tokyo .img-item {
@@ -61,10 +69,6 @@
   .travel-destinations-cards .item .osaka .img-item {
     background: url(../img/osaka-tablet-desk.jpg);
     background-size: cover;
-  }
-
-  .destinations .button {
-    width: 280px;
   }
 }
 
@@ -83,6 +87,8 @@
   .destinations {
     width: 1200px;
   }
+
+  /* Pacotes de Viagens*/
 
   .destination-items,
   .travel-destinations-cards {

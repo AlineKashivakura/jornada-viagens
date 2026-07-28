@@ -3,10 +3,6 @@
   margin: 0 auto;
 }
 
-.travel-packages .payments-card header {
-  margin-bottom: 24px;
-}
-
 .payments .image-gallery {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -14,6 +10,12 @@
   gap: 24px;
   margin-top: 24px;
   width: 100%;
+}
+
+/* Pacotes de Viagens*/
+
+.travel-packages .payments-card header {
+  margin-bottom: 24px;
 }
 
 .image-gallery .image.first {
@@ -62,6 +64,8 @@
   .image-gallery.image.passport {
     background-image: url(../img/grid-people-tablet-desk.jpg);
   }
+
+  /* Pacotes de Viagens*/
 
   .travel-packages .image-gallery .image.first {
     background: url(../img/travel-packages/bg-gallery1-tablet-desk.jpg)
