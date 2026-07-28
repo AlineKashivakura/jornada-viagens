@@ -56,7 +56,7 @@ nav {
 }
 
 @media screen and (min-width: 768px) {
-  .navigation-menu{
+  .navigation-menu {
     margin-top: 0;
     width: 467px;
   }
@@ -80,29 +80,28 @@ nav {
   }
 }
 
-@media screen and (min-width:1024px){
+@media screen and (min-width: 1024px) {
   .main-header {
     padding: 38px 120px;
   }
 
-  .logo{
+  .logo {
     width: 260px;
     height: 64px;
   }
 
-  .img-desktop{
+  .img-desktop {
     display: block;
   }
 
-  .img-mobile{
+  .img-mobile {
     display: none;
   }
 
-  .navigation-menu a:hover{
+  .navigation-menu a:hover {
     color: var(--button-primary-color);
   }
 }
-
 
 @media screen and (min-width: 1920px) {
   .main-header {
