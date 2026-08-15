@@ -1,4 +1,5 @@
-.destinations {
+.destinations,
+.tokyo-post {
   width: 312px;
   margin: 0 auto;
 }
@@ -20,7 +21,8 @@
 }
 
 .destination-items .item .tokyo,
-.travel-destinations-cards .item .tokyo {
+.travel-destinations-cards .item .tokyo,
+.tokyo-post .accommodation .image-post {
   background-color: var(--background-tertiary-color);
   background: url(../img/tokyo-mobile.jpg) no-repeat center/cover;
 }
@@ -43,6 +45,32 @@
   line-height: 1.5;
 }
 
+/* Blogpost*/
+
+.post-container .arrival {
+  margin-bottom: 32px;
+}
+
+.tokyo-post .post-container p {
+  margin-bottom: 32px;
+}
+
+.tokyo-post .post-container .last {
+  margin-bottom: 0;
+}
+
+.post-container .arrival .image-post {
+  background: url(../img/blogpost/tokyo-market-mobile.jpg) no-repeat
+    center/cover;
+  height: 360px;
+}
+
+.post-container .accommodation .image-post {
+  height: 300px;
+  width: auto;
+  margin: 0;
+}
+
 @media screen and (min-width: 768px) {
   .destinations {
     width: 648px;
@@ -60,15 +88,39 @@
   /* Pacotes de Viagens*/
 
   .destination-item .item .tokyo .img-item,
-  .travel-destinations-cards .item .tokyo .img-item {
-    background: url(../img/tokyo-tablet-desk.jpg);
-    background-size: cover;
+  .travel-destinations-cards .item .tokyo .img-item,
+  .tokyo-post .accommodation .image-post {
+    background: url(../img/tokyo-tablet-desk.jpg) no-repeat center/cover;
   }
 
   .destination-item .item .osaka .img-item,
   .travel-destinations-cards .item .osaka .img-item {
-    background: url(../img/osaka-tablet-desk.jpg);
-    background-size: cover;
+    background: url(../img/osaka-tablet-desk.jpg) no-repeat center/cover;
+  }
+
+  /* Blogpost*/
+  .tokyo-post {
+    width: 648px;
+  }
+
+  .tokyo-post .content-container .arrival {
+    width: 312px;
+  }
+
+  .tokyo-post .content-container .accommodation {
+    width: auto;
+  }
+
+  .tokyo-post .arrival {
+    display: flex;
+  }
+
+  .post-container .image-post {
+    background: url(../img/blogpost/tokyo-market-tablet-desktop.jpg) no-repeat
+      center/cover;
+    height: 360px;
+    width: 312px;
+    margin: 0 0 0 24px;
   }
 }
 
@@ -80,6 +132,11 @@
   .destinations .item .img-item {
     width: 100%;
     height: 452px;
+  }
+
+  /* Blogpost*/
+  .tokyo-post {
+    width: 900px;
   }
 }
 
@@ -94,5 +151,30 @@
   .travel-destinations-cards {
     flex-direction: row;
     gap: 24px;
+  }
+
+  /* Blogpost*/
+  .tokyo-post {
+    width: 1200px;
+  }
+
+  .post-container .arrival {
+    margin-bottom: 48px;
+  }
+
+  .tokyo-post .post-container p {
+    margin-bottom: 48px;
+  }
+
+  .tokyo-post .content-container .arrival {
+    width: 588px;
+  }
+
+  .post-container .image-post {
+    width: 588px;
+  }
+
+  .tokyo-post .content-container .accommodation {
+    width: auto;
   }
 }

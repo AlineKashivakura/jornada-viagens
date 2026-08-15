@@ -143,3 +143,10 @@ header {
     padding-top: 104px;
   }
 }
+
+/* Blogpost */
+.subtitle {
+  margin-top: 8px;
+  font-size: 14px;
+  line-height: 28px;
+}
