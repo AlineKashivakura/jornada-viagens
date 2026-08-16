@@ -93,7 +93,8 @@ header {
 .categories-cards,
 .destination-items,
 .offers-cards,
-.travel-destinations-cards {
+.travel-destinations-cards,
+.recommendation-items {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -142,4 +143,11 @@ header {
   .section-title h2 {
     padding-top: 104px;
   }
+}
+
+/* Blogpost */
+.subtitle {
+  margin-top: 8px;
+  font-size: 14px;
+  line-height: 28px;
 }

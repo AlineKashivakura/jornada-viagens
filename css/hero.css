@@ -20,25 +20,38 @@
   height: 460px;
 }
 
-.travel-packages .hero-content {
+/* Blogpost*/
+
+.blogpost .hero-img {
+  background: url(../img/blogpost/bg-blogpost-mobile.png) no-repeat center/cover;
+  height: 460px;
+}
+
+/* Blogpost e Pacote de Viagens*/
+
+.travel-packages .hero-content,
+.blogpost .hero-content {
   padding: 65px 24px;
   text-align: left;
 }
 
-.travel-packages .hero-content h1 {
+.travel-packages .hero-content h1,
+.blogpost .hero-content h1 {
   color: var(--text-secondary-color);
   font-size: 48px;
   font-weight: var(--titles-weight);
 }
 
-.travel-packages .hero-content p {
+.travel-packages .hero-content p,
+.blogpost .hero-content p {
   color: var(--text-secondary-color);
   font-size: 20px;
   line-height: 32px;
   font-weight: var(--text-weight);
 }
 
-.travel-packages .hero-content hr {
+.travel-packages .hero-content hr,
+.blogpost .hero-content hr {
   display: inline-flex;
 }
 
@@ -61,11 +74,23 @@
       no-repeat center/cover;
   }
 
-  .travel-packages .hero-content {
+  /* Blogpost*/
+
+  .blogpost .hero-img {
+    height: 620px;
+    background: url(../img/blogpost/bg-blogpost-tablet-desktop.png) no-repeat
+      center/cover;
+  }
+
+  /* Blogpost e Pacote de Viagens*/
+
+  .travel-packages .hero-content,
+  .blogpost .hero-content {
     padding: 210px 70px 107px;
   }
 
-  .travel-packages .hero-content p {
+  .travel-packages .hero-content p,
+  .blogpost .hero-content p {
     font-size: 32px;
     line-height: 48px;
   }
@@ -80,14 +105,16 @@
     padding: 88px 120px 0;
   }
 
-  /* Pacotes de Viagens*/
+  /* Blogpost e Pacotes de Viagens*/
 
-  .travel-packages .hero-content {
+  .travel-packages .hero-content,
+  .blogpost .hero-content {
     padding: 150px 120px 170px;
     margin: 0 auto;
   }
 
-  .travel-packages .hero-content p {
+  .travel-packages .hero-content p,
+  .blogpost .hero-content p {
     width: 570px;
   }
 }
@@ -97,9 +124,10 @@
     padding: 88px 160px;
   }
 
-  /* Pacotes de Viagens*/
+  /* Blogpost e Pacotes de Viagens*/
 
-  .travel-packages .hero-content {
+  .travel-packages .hero-content,
+  .blogpost .hero-content {
     width: 1200px;
   }
 }
