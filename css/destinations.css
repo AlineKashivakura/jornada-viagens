@@ -1,22 +1,26 @@
 .destinations,
-.tokyo-post {
+.tokyo-post,
+.post-recommendations {
   width: 312px;
   margin: 0 auto;
 }
 
-.destinations .item .img-item {
+.destinations .item .img-item,
+.post-recommendations .img-item {
   width: 100%;
   height: 368px;
 }
 
-.destinations .button {
+.destinations .button,
+.post-recommendations .button {
   width: 312px;
 }
 
 /* Pacotes de Viagens*/
 
 .destination-items,
-.travel-destinations-cards {
+.travel-destinations-cards,
+.recommendation-items {
   gap: 40px;
 }
 
@@ -28,13 +32,15 @@
 }
 
 .destination-items .item .osaka,
-.travel-destinations-cards .item .osaka {
+.travel-destinations-cards .item .osaka,
+.post-recommendations .item .osaka {
   background-color: var(--background-tertiary-color);
   background: url(../img/osaka-mobile.jpg) no-repeat center/cover;
 }
 
 .destination-items .item header h3,
-.travel-destinations-cards .item header h3 {
+.travel-destinations-cards .item header h3,
+.recommendation-items .item h3 {
   color: var(--text-primary-color);
   margin: 24px 0px;
 }
@@ -71,17 +77,32 @@
   margin: 0;
 }
 
+.post-recommendations {
+  margin-bottom: 88px;
+}
+
+.post-recommendations .recommendation-items .hiroshima {
+  background: url(../img/blogpost/hiroshima-mobile.png) no-repeat center/cover;
+}
+
+.post-recommendations .recommendation-items .kyoto {
+  background: url(../img/blogpost/kyoto-mobile.png) no-repeat center/cover;
+}
+
 @media screen and (min-width: 768px) {
-  .destinations {
+  .destinations,
+  .post-recommendations {
     width: 648px;
   }
 
-  .destinations .item .img-item {
+  .destinations .item .img-item,
+  .post-recommendations .item .img-item {
     width: 100%;
     height: 452px;
   }
 
-  .destinations .button {
+  .destinations .button,
+  .post-recommendations .button {
     width: 280px;
   }
 
@@ -94,7 +115,8 @@
   }
 
   .destination-item .item .osaka .img-item,
-  .travel-destinations-cards .item .osaka .img-item {
+  .travel-destinations-cards .item .osaka .img-item,
+  .recommendation-items .item .osaka {
     background: url(../img/osaka-tablet-desk.jpg) no-repeat center/cover;
   }
 
@@ -122,14 +144,30 @@
     width: 312px;
     margin: 0 0 0 24px;
   }
+
+  .post-recommendations {
+    margin-bottom: 104px;
+  }
+
+  .post-recommendations .recommendation-items .hiroshima {
+    background: url(../img/blogpost/hiroshima-tablet-desktop.png) no-repeat
+      center/cover;
+  }
+
+  .post-recommendations .recommendation-items .kyoto {
+    background: url(../img/blogpost/kyoto-tablet-desktop.png) no-repeat
+      right/cover;
+  }
 }
 
 @media screen and (min-width: 1024px) {
-  .destinations {
+  .destinations,
+  .post-recommendations {
     width: 900px;
   }
 
-  .destinations .item .img-item {
+  .destinations .item .img-item,
+  .post-recommendations .item .img-item {
     width: 100%;
     height: 452px;
   }
@@ -141,14 +179,16 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .destinations {
+  .destinations,
+  .post-recommendations {
     width: 1200px;
   }
 
   /* Pacotes de Viagens*/
 
   .destination-items,
-  .travel-destinations-cards {
+  .travel-destinations-cards,
+  .recommendation-items {
     flex-direction: row;
     gap: 24px;
   }
@@ -176,5 +216,15 @@
 
   .tokyo-post .content-container .accommodation {
     width: auto;
+  }
+
+  /* Blogpost */
+  .post-recommendations {
+    height: 1200px;
+  }
+
+  .recommendation-items .item {
+    width: 384px;
+    height: 755px;
   }
 }

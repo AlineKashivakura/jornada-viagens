@@ -93,7 +93,8 @@ header {
 .categories-cards,
 .destination-items,
 .offers-cards,
-.travel-destinations-cards {
+.travel-destinations-cards,
+.recommendation-items {
   display: flex;
   flex-direction: column;
   align-items: center;
