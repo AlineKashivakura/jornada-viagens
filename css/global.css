@@ -116,9 +116,15 @@ header {
 }
 
 /* Pacotes de Viagens*/
-
 .main-header .list-links .active {
   text-decoration: underline;
+}
+
+/* Blogpost */
+.subtitle {
+  margin-top: 8px;
+  font-size: 14px;
+  line-height: 28px;
 }
 
 @media screen and (min-width: 768px) {
@@ -143,11 +149,4 @@ header {
   .section-title h2 {
     padding-top: 104px;
   }
-}
-
-/* Blogpost */
-.subtitle {
-  margin-top: 8px;
-  font-size: 14px;
-  line-height: 28px;
 }
