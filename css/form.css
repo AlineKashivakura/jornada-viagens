@@ -1,0 +1,110 @@
+.form {
+  margin: 88px 24px;
+  justify-items: center;
+  justify-self: center;
+}
+
+.form .content-text {
+  margin: 56px 0;
+  text-align: center;
+}
+
+.form-text {
+  font-size: 24px;
+  line-height: 150%;
+}
+
+.form-data {
+  text-align: center;
+  width: 312px;
+}
+
+.form-data input {
+  border: none;
+  outline: none;
+  font-size: 24px;
+}
+
+.form .form-data input {
+  border-bottom: solid #d9d9d9;
+  width: 312px;
+  margin-bottom: 64px;
+  padding-bottom: 8px;
+}
+
+.form-data input:focus {
+  border: none;
+  outline: none;
+  border-bottom: solid var(--button-secondary-color);
+}
+
+.form-data input:focus::placeholder {
+  color: var(--text-primary-color);
+}
+
+.form-data .subject-comment-area {
+  color: #8c8c8c;
+  font-size: 24px;
+}
+
+.form-data textarea {
+  border: solid #d9d9d9;
+  width: 100%;
+  height: 90px;
+  margin-top: 8px;
+  border-radius: 8px;
+}
+
+.form-data textarea:focus {
+  outline: none;
+  border-color: var(--button-secondary-color);
+}
+
+.form-data textarea:focus ~ .subject-comment-area {
+  color: var(--text-primary-color);
+}
+
+.form-data .submit-button {
+  text-align: center;
+}
+
+.form-data .submit-button input {
+  margin-bottom: 0;
+}
+
+.form-data .button {
+  margin-top: 32px;
+  width: 312px;
+}
+
+@media screen and (min-width: 768px) {
+  .form {
+    margin: 88px 60px;
+    max-width: 1200px;
+  }
+
+  .form .form-data,
+  .form .form-data input {
+    width: 648px;
+  }
+
+  .form-data .submit-button input {
+    max-width: 280px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .form .form-data,
+  .form .form-data input {
+    width: 790px;
+  }
+  .double-line {
+    display: flex;
+    justify-content: space-between;
+    width: 790px;
+  }
+
+  .form-data .double-line input {
+    width: 383px;
+  }
+}
